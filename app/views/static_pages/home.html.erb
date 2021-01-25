@@ -1,0 +1,10 @@
+<% provide :title, "Home" %>
+<div class="center jumbotron">
+  <h1><%= t("ve.welcome") %></h1>
+  <h2>
+    <%= t("ve.home1") %>
+    <a href="http://www.railstutorial.org/"><%= t("ve.home3") %></a>
+    <%= t("ve.home2") %>
+  </h2>
+  <%= link_to t("ve.sign"), signup_path, class: "btn btn-lg btn-primary" %>
+</div>
