@@ -2194,3 +2194,73 @@ Processing by StaticPagesController#home as HTML
 Completed 200 OK in 15ms (Views: 13.7ms | ActiveRecord: 0.0ms | Allocations: 7223)
 
 
+Started GET "/" for ::1 at 2021-01-25 13:07:34 +0700
+  [1m[35m (1.6ms)[0m  [1m[34mSELECT sqlite_version(*)[0m
+  [1m[35m (0.2ms)[0m  [1m[34mSELECT "schema_migrations"."version" FROM "schema_migrations" ORDER BY "schema_migrations"."version" ASC[0m
+Processing by Rails::WelcomeController#index as HTML
+  Rendering /home/an94/.rvm/gems/ruby-2.7.0/gems/railties-6.0.3.4/lib/rails/templates/rails/welcome/index.html.erb
+  Rendered /home/an94/.rvm/gems/ruby-2.7.0/gems/railties-6.0.3.4/lib/rails/templates/rails/welcome/index.html.erb (Duration: 8.0ms | Allocations: 407)
+Completed 200 OK in 23ms (Views: 12.1ms | ActiveRecord: 0.0ms | Allocations: 4840)
+
+
+Started GET "/static_pages/home" for ::1 at 2021-01-25 13:07:42 +0700
+Processing by StaticPagesController#home as HTML
+  Rendering static_pages/home.html.erb within layouts/application
+  Rendered static_pages/home.html.erb within layouts/application (Duration: 2.9ms | Allocations: 155)
+[Webpacker] Compiling...
+[Webpacker] Compiled all packs in /home/an94/Desktop/rails/sample_app/public/packs
+[Webpacker] Hash: 76145d9ce4575ebaa29b
+Version: webpack 4.46.0
+Time: 2072ms
+Built at: 01/25/2021 1:07:46 PM
+                                     Asset       Size       Chunks                         Chunk Names
+    js/application-c229f7c7014cf8c8d494.js    124 KiB  application  [emitted] [immutable]  application
+js/application-c229f7c7014cf8c8d494.js.map    139 KiB  application  [emitted] [dev]        application
+                             manifest.json  364 bytes               [emitted]              
+Entrypoint application = js/application-c229f7c7014cf8c8d494.js js/application-c229f7c7014cf8c8d494.js.map
+[./app/javascript/channels sync recursive _channel\.js$] ./app/javascript/channels sync _channel\.js$ 160 bytes {application} [built]
+[./app/javascript/channels/index.js] 211 bytes {application} [built]
+[./app/javascript/packs/application.js] 749 bytes {application} [built]
+[./node_modules/webpack/buildin/module.js] (webpack)/buildin/module.js 552 bytes {application} [built]
+    + 3 hidden modules
+
+  Rendered layouts/_header.html.erb (Duration: 0.6ms | Allocations: 235)
+Completed 200 OK in 3857ms (Views: 3854.4ms | ActiveRecord: 0.0ms | Allocations: 76032)
+
+
+Started GET "/static_pages/home" for ::1 at 2021-01-25 13:07:49 +0700
+Processing by StaticPagesController#home as HTML
+  Rendering static_pages/home.html.erb within layouts/application
+  Rendered static_pages/home.html.erb within layouts/application (Duration: 0.1ms | Allocations: 29)
+[Webpacker] Everything's up-to-date. Nothing to do
+  Rendered layouts/_header.html.erb (Duration: 0.1ms | Allocations: 66)
+Completed 200 OK in 8ms (Views: 7.5ms | ActiveRecord: 0.0ms | Allocations: 7126)
+
+
+Started GET "/static_pages/home" for ::1 at 2021-01-25 13:07:52 +0700
+Processing by StaticPagesController#home as HTML
+  Rendering static_pages/home.html.erb within layouts/application
+  Rendered static_pages/home.html.erb within layouts/application (Duration: 0.1ms | Allocations: 29)
+[Webpacker] Everything's up-to-date. Nothing to do
+  Rendered layouts/_header.html.erb (Duration: 0.2ms | Allocations: 66)
+Completed 200 OK in 14ms (Views: 13.7ms | ActiveRecord: 0.0ms | Allocations: 7125)
+
+
+Started GET "/static_pages/help" for ::1 at 2021-01-25 13:08:02 +0700
+Processing by StaticPagesController#help as HTML
+  Rendering static_pages/help.html.erb within layouts/application
+  Rendered static_pages/help.html.erb within layouts/application (Duration: 0.6ms | Allocations: 101)
+[Webpacker] Everything's up-to-date. Nothing to do
+  Rendered layouts/_header.html.erb (Duration: 0.2ms | Allocations: 67)
+Completed 200 OK in 13ms (Views: 12.4ms | ActiveRecord: 0.0ms | Allocations: 7342)
+
+
+Started GET "/static_pages/home" for ::1 at 2021-01-25 13:08:02 +0700
+Processing by StaticPagesController#home as HTML
+  Rendering static_pages/home.html.erb within layouts/application
+  Rendered static_pages/home.html.erb within layouts/application (Duration: 0.1ms | Allocations: 30)
+[Webpacker] Everything's up-to-date. Nothing to do
+  Rendered layouts/_header.html.erb (Duration: 0.1ms | Allocations: 66)
+Completed 200 OK in 12ms (Views: 11.6ms | ActiveRecord: 0.0ms | Allocations: 7128)
+
+
