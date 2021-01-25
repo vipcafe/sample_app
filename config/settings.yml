@@ -1,2 +1,5 @@
 user:
   max_length: 500
+
+password:
+  min_length: 6

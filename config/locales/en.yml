@@ -22,5 +22,20 @@ en:
     help : "Help"
     login : "Login"
 
+  signup:
+    create_my_account: "Register"
+    title: "Signup"
+    name: "Name"
+    email: "Email"
+    password: "password"
+    confirmation: "Confirmation"
+
   title:
     msg: "Ruby on Rails Tutorial Sample App"
+
+  msg:
+    tb: "Welcome to sample app !!!"
+
+  error:
+    the_form_contains: "The Form Contains %{count} error"
+

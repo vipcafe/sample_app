@@ -6,6 +6,7 @@ vi:
     home1: "Đây là trang chủ giới thiệu về "
     home2: " cho người mới bắt đầu"
     home3: "Ruby on Rails"
+
   help:
     title: "Hỗ trợ"
     hp: "Hỗ trợ"
@@ -21,5 +22,20 @@ vi:
     help : "Hỗ trợ"
     login : "Đăng nhập"
 
+  signup:
+    create_my_account: "Đăng ký"
+    title: "Đăng ký"
+    name: "Tên"
+    email: "Email"
+    password: "Mật khẩu "
+    confirmation: "Xác nhận mật khẩu"
+
   title:
     msg: "Ứng dụng mẫu Ruby Rails"
+
+  msg:
+    tb: "chào mừng bạn đến với Sample !!!"
+
+  error:
+    the_form_contains: "Biểu mẫu chứa %{count} Lỗi"
+
