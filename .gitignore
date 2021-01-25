@@ -68,8 +68,15 @@ yarn-debug.log*
 !/storage/.keep
 /public/uploads
 
+.rvmrc
 .framgia-ci-reports/
 .framgia-ci-result.temp.yml
 
-/log
+/log/
+/log/development.log
 
+
+
+config/settings.local.yml
+config/settings/*.local.yml
+config/environments/*.local.yml
