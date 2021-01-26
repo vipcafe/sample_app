@@ -5899,3 +5899,218 @@ Processing by StaticPagesController#home as HTML
 Completed 200 OK in 40ms (Views: 35.3ms | ActiveRecord: 0.0ms | Allocations: 22923)
 
 
+Started GET "/static_pages/home?locale=vi" for ::1 at 2021-01-26 10:08:39 +0700
+  [1m[35m (0.1ms)[0m  [1m[34mSELECT sqlite_version(*)[0m
+Processing by StaticPagesController#home as HTML
+  Parameters: {"locale"=>"vi"}
+Completed 500 Internal Server Error in 1ms (ActiveRecord: 0.0ms | Allocations: 622)
+
+
+  
+I18n::InvalidLocale (true is not a valid locale):
+  
+app/controllers/application_controller.rb:7:in `set_locale'
+Started GET "/static_pages/home?locale=vi" for ::1 at 2021-01-26 10:08:42 +0700
+Processing by StaticPagesController#home as HTML
+  Parameters: {"locale"=>"vi"}
+Completed 500 Internal Server Error in 1ms (ActiveRecord: 0.0ms | Allocations: 619)
+
+
+  
+I18n::InvalidLocale (true is not a valid locale):
+  
+app/controllers/application_controller.rb:7:in `set_locale'
+Started GET "/static_pages/home" for ::1 at 2021-01-26 10:09:20 +0700
+  [1m[35m (1.9ms)[0m  [1m[34mSELECT sqlite_version(*)[0m
+  [1m[35m (0.2ms)[0m  [1m[34mSELECT "schema_migrations"."version" FROM "schema_migrations" ORDER BY "schema_migrations"."version" ASC[0m
+Processing by StaticPagesController#home as HTML
+  Rendering static_pages/home.html.erb within layouts/application
+  Rendered static_pages/home.html.erb within layouts/application (Duration: 5.3ms | Allocations: 3904)
+[Webpacker] Everything's up-to-date. Nothing to do
+  Rendered layouts/_header.html.erb (Duration: 1.0ms | Allocations: 296)
+Completed 200 OK in 70ms (Views: 63.0ms | ActiveRecord: 0.0ms | Allocations: 22937)
+
+
+Started GET "/static_pages/home?locale=vi" for ::1 at 2021-01-26 10:09:22 +0700
+Processing by StaticPagesController#home as HTML
+  Parameters: {"locale"=>"vi"}
+Completed 500 Internal Server Error in 1ms (ActiveRecord: 0.0ms | Allocations: 617)
+
+
+  
+I18n::InvalidLocale (true is not a valid locale):
+  
+app/controllers/application_controller.rb:7:in `set_locale'
+Started GET "/static_pages/home?locale=vi" for ::1 at 2021-01-26 10:10:17 +0700
+  [1m[35m (0.1ms)[0m  [1m[34mSELECT sqlite_version(*)[0m
+Processing by StaticPagesController#home as HTML
+  Parameters: {"locale"=>"vi"}
+Completed 500 Internal Server Error in 1ms (ActiveRecord: 0.0ms | Allocations: 629)
+
+
+  
+I18n::InvalidLocale (true is not a valid locale):
+  
+app/controllers/application_controller.rb:7:in `set_locale'
+Started GET "/static_pages/home?locale=vi" for ::1 at 2021-01-26 10:10:19 +0700
+Processing by StaticPagesController#home as HTML
+  Parameters: {"locale"=>"vi"}
+Completed 500 Internal Server Error in 1ms (ActiveRecord: 0.0ms | Allocations: 613)
+
+
+  
+I18n::InvalidLocale (true is not a valid locale):
+  
+app/controllers/application_controller.rb:7:in `set_locale'
+Started GET "/" for ::1 at 2021-01-26 10:17:06 +0700
+  [1m[35m (0.1ms)[0m  [1m[34mSELECT sqlite_version(*)[0m
+Processing by Rails::WelcomeController#index as HTML
+Completed 500 Internal Server Error in 1ms (ActiveRecord: 0.0ms | Allocations: 1006)
+
+
+  
+SyntaxError (/home/an94/Desktop/rails/sample_app/app/controllers/application_controller.rb:7: syntax error, unexpected `then', expecting `end'
+...s.include?(locale) == true then locale
+...                           ^~~~
+/home/an94/Desktop/rails/sample_app/app/controllers/application_controller.rb:8: else without rescue is useless
+    else
+    ^~~~
+/home/an94/Desktop/rails/sample_app/app/controllers/application_controller.rb:16: syntax error, unexpected `end', expecting end-of-input):
+  
+app/controllers/application_controller.rb:7: syntax error, unexpected `then', expecting `end'
+app/controllers/application_controller.rb:8: else without rescue is useless
+app/controllers/application_controller.rb:16: syntax error, unexpected `end', expecting end-of-input
+app/controllers/application_controller.rb:7: syntax error, unexpected `then', expecting `end'
+app/controllers/application_controller.rb:8: else without rescue is useless
+app/controllers/application_controller.rb:16: syntax error, unexpected `end', expecting end-of-input
+app/controllers/application_controller.rb:7: syntax error, unexpected `then', expecting `end'
+app/controllers/application_controller.rb:8: else without rescue is useless
+app/controllers/application_controller.rb:16: syntax error, unexpected `end', expecting end-of-input
+Started GET "/" for ::1 at 2021-01-26 10:19:02 +0700
+  [1m[35m (0.4ms)[0m  [1m[34mSELECT sqlite_version(*)[0m
+  [1m[35m (0.3ms)[0m  [1m[34mSELECT "schema_migrations"."version" FROM "schema_migrations" ORDER BY "schema_migrations"."version" ASC[0m
+Processing by Rails::WelcomeController#index as HTML
+  Rendering /home/an94/.rvm/gems/ruby-2.7.0/gems/railties-6.0.3.4/lib/rails/templates/rails/welcome/index.html.erb
+  Rendered /home/an94/.rvm/gems/ruby-2.7.0/gems/railties-6.0.3.4/lib/rails/templates/rails/welcome/index.html.erb (Duration: 7.0ms | Allocations: 295)
+Completed 200 OK in 14ms (Views: 8.5ms | ActiveRecord: 0.0ms | Allocations: 1747)
+
+
+Started GET "/static_pages/home" for ::1 at 2021-01-26 10:19:07 +0700
+Processing by StaticPagesController#home as HTML
+  Rendering static_pages/home.html.erb within layouts/application
+  Rendered static_pages/home.html.erb within layouts/application (Duration: 9.5ms | Allocations: 3914)
+[Webpacker] Everything's up-to-date. Nothing to do
+  Rendered layouts/_header.html.erb (Duration: 0.5ms | Allocations: 291)
+Completed 200 OK in 44ms (Views: 41.9ms | ActiveRecord: 0.0ms | Allocations: 22490)
+
+
+Started GET "/static_pages/home?locale=vi" for ::1 at 2021-01-26 10:19:08 +0700
+Processing by StaticPagesController#home as HTML
+  Parameters: {"locale"=>"vi"}
+Completed 500 Internal Server Error in 1ms (ActiveRecord: 0.0ms | Allocations: 599)
+
+
+  
+I18n::InvalidLocale (true is not a valid locale):
+  
+app/controllers/application_controller.rb:8:in `set_locale'
+Started GET "/static_pages/home?locale=vi" for ::1 at 2021-01-26 10:20:32 +0700
+  [1m[35m (0.1ms)[0m  [1m[34mSELECT sqlite_version(*)[0m
+Processing by StaticPagesController#home as HTML
+  Parameters: {"locale"=>"vi"}
+Completed 500 Internal Server Error in 1ms (ActiveRecord: 0.0ms | Allocations: 611)
+
+
+  
+I18n::InvalidLocale (true is not a valid locale):
+  
+app/controllers/application_controller.rb:8:in `set_locale'
+Started GET "/static_pages/home?locale=vi" for ::1 at 2021-01-26 10:20:33 +0700
+Processing by StaticPagesController#home as HTML
+  Parameters: {"locale"=>"vi"}
+Completed 500 Internal Server Error in 1ms (ActiveRecord: 0.0ms | Allocations: 595)
+
+
+  
+I18n::InvalidLocale (true is not a valid locale):
+  
+app/controllers/application_controller.rb:8:in `set_locale'
+Started GET "/static_pages/home?locale=vi" for ::1 at 2021-01-26 10:20:53 +0700
+  [1m[35m (0.6ms)[0m  [1m[34mSELECT sqlite_version(*)[0m
+  [1m[35m (0.2ms)[0m  [1m[34mSELECT "schema_migrations"."version" FROM "schema_migrations" ORDER BY "schema_migrations"."version" ASC[0m
+Processing by StaticPagesController#home as HTML
+  Parameters: {"locale"=>"vi"}
+Completed 500 Internal Server Error in 6ms (ActiveRecord: 0.0ms | Allocations: 703)
+
+
+  
+I18n::InvalidLocale (true is not a valid locale):
+  
+app/controllers/application_controller.rb:8:in `set_locale'
+Started GET "/" for ::1 at 2021-01-26 10:28:12 +0700
+  [1m[35m (0.1ms)[0m  [1m[34mSELECT sqlite_version(*)[0m
+Processing by Rails::WelcomeController#index as HTML
+  Rendering /home/an94/.rvm/gems/ruby-2.7.0/gems/railties-6.0.3.4/lib/rails/templates/rails/welcome/index.html.erb
+  Rendered /home/an94/.rvm/gems/ruby-2.7.0/gems/railties-6.0.3.4/lib/rails/templates/rails/welcome/index.html.erb (Duration: 6.4ms | Allocations: 183)
+Completed 200 OK in 8ms (Views: 7.3ms | ActiveRecord: 0.0ms | Allocations: 1000)
+
+
+Started GET "/static_pages/home" for ::1 at 2021-01-26 10:28:15 +0700
+Processing by StaticPagesController#home as HTML
+  Rendering static_pages/home.html.erb within layouts/application
+  Rendered static_pages/home.html.erb within layouts/application (Duration: 10.4ms | Allocations: 3794)
+[Webpacker] Everything's up-to-date. Nothing to do
+  Rendered layouts/_header.html.erb (Duration: 0.8ms | Allocations: 294)
+Completed 200 OK in 71ms (Views: 69.8ms | ActiveRecord: 0.0ms | Allocations: 22155)
+
+
+Started GET "/static_pages/home" for ::1 at 2021-01-26 10:28:18 +0700
+Processing by StaticPagesController#home as HTML
+  Rendering static_pages/home.html.erb within layouts/application
+  Rendered static_pages/home.html.erb within layouts/application (Duration: 0.2ms | Allocations: 108)
+[Webpacker] Everything's up-to-date. Nothing to do
+  Rendered layouts/_header.html.erb (Duration: 0.3ms | Allocations: 110)
+Completed 200 OK in 12ms (Views: 11.5ms | ActiveRecord: 0.0ms | Allocations: 7444)
+
+
+Started GET "/static_pages/help?locale=vi" for ::1 at 2021-01-26 10:28:20 +0700
+Processing by StaticPagesController#help as HTML
+  Parameters: {"locale"=>"vi"}
+Completed 500 Internal Server Error in 1ms (ActiveRecord: 0.0ms | Allocations: 617)
+
+
+  
+I18n::InvalidLocale (true is not a valid locale):
+  
+app/controllers/application_controller.rb:8:in `set_locale'
+Started GET "/static_pages/help?locale=vi" for ::1 at 2021-01-26 10:28:58 +0700
+  [1m[35m (0.1ms)[0m  [1m[34mSELECT sqlite_version(*)[0m
+Processing by StaticPagesController#help as HTML
+  Parameters: {"locale"=>"vi"}
+  Rendering static_pages/help.html.erb within layouts/application
+  Rendered static_pages/help.html.erb within layouts/application (Duration: 0.8ms | Allocations: 251)
+[Webpacker] Everything's up-to-date. Nothing to do
+  Rendered layouts/_header.html.erb (Duration: 0.2ms | Allocations: 116)
+Completed 200 OK in 13ms (Views: 12.5ms | ActiveRecord: 0.0ms | Allocations: 8374)
+
+
+Started GET "/static_pages/help?locale=en" for ::1 at 2021-01-26 10:29:01 +0700
+Processing by StaticPagesController#help as HTML
+  Parameters: {"locale"=>"en"}
+  Rendering static_pages/help.html.erb within layouts/application
+  Rendered static_pages/help.html.erb within layouts/application (Duration: 0.2ms | Allocations: 106)
+[Webpacker] Everything's up-to-date. Nothing to do
+  Rendered layouts/_header.html.erb (Duration: 0.2ms | Allocations: 110)
+Completed 200 OK in 12ms (Views: 11.2ms | ActiveRecord: 0.0ms | Allocations: 8060)
+
+
+Started GET "/static_pages/help?locale=vi" for ::1 at 2021-01-26 10:29:02 +0700
+Processing by StaticPagesController#help as HTML
+  Parameters: {"locale"=>"vi"}
+  Rendering static_pages/help.html.erb within layouts/application
+  Rendered static_pages/help.html.erb within layouts/application (Duration: 0.4ms | Allocations: 101)
+[Webpacker] Everything's up-to-date. Nothing to do
+  Rendered layouts/_header.html.erb (Duration: 1.1ms | Allocations: 110)
+Completed 200 OK in 16ms (Views: 15.4ms | ActiveRecord: 0.0ms | Allocations: 7477)
+
+
