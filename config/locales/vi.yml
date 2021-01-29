@@ -1,0 +1,40 @@
+vi:
+  ve:
+    welcome: "Chào mừng đến với Sample App"
+    sign: "Đăng ký ngay !"
+    home1: "Đây là trang chủ giới thiệu về "
+    home2: " cho người mới bắt đầu"
+    home3: "Ruby on Rails"
+
+  help:
+    hp: "Hỗ trợ"
+    hp1: "Nhận trợ giúp về Hướng dẫn Ruby on Rails tại %{href}"
+    hp2: "Trang trợ giúp Hướng dẫn về Rails"
+    link: "http://www.railstutorial.org/"
+    link2: "http://www.railstutorial.org/"
+
+  signup:
+    create_my_account: "Đăng ký"
+    title: "Đăng ký"
+    name: "Tên"
+    email: "Email"
+    password: "Mật khẩu "
+    confirmation: "Xác nhận mật khẩu"
+
+  header:
+    home : "Trang chủ"
+    help : "Hỗ trợ"
+    users: "Người dùng"
+    profile: "Thông tin"
+    settings: "Cài đặt"
+    signup: "Đăng ký"
+    login : "Đăng nhập"
+    logout: "Đăng xuất"
+
+  msg:
+    tb: "chào mừng bạn đến với Sample !!!"
+
+  title:
+    msg: "Ứng dụng mẫu Ruby Rails"
+
+
