@@ -1,0 +1,26 @@
+en:
+  ve:
+    title: "Home "
+    welcome: "Welcome to the Sample App"
+    sign: "Sign up now !"
+    home1: "This is the home page for the "
+    home2: "sample application"
+    home3: "Ruby on Rails Tutorial "
+
+  help:
+    title: "Help"
+    hp: "HELP"
+    hp1: "Get help on the Ruby on Rails Tutorial at the %{href}. To get help on this sample app, see the ."
+    hp2: "This is home page for Ruby on Rails"
+    link: "#"
+    link2: "##"
+
+  header:
+    translate_vi : "VietNames"
+    translate_en: "English"
+    home : "Home"
+    help : "Help"
+    login : "Login"
+
+  title:
+    msg: "Ruby on Rails Tutorial Sample App"
